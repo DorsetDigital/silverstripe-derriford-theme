@@ -15,6 +15,7 @@
   "require": {
     "composer/installers": "*",
     "silverstripe/framework": ">=4.0",
+    "dorsetdigital/silverstripe-derriford-theme-functions": "*"
     "dorsetdigital/silverstripe-requirementsinline": "^1",
     "ryanpotter/silverstripe-color-field": "^1"
   },
