@@ -15,6 +15,7 @@
   "require": {
     "composer/installers": "*",
     "silverstripe/framework": ">=4.0",
+    "dorsetdigital/silverstripe-derriford-theme-functions": "*"
     "dorsetdigital/silverstripe-requirementsinline": "^1",
     "ryanpotter/silverstripe-color-field": "^1"
   },
@@ -22,10 +23,5 @@
   "suggest": {
     "dorsetdigital/silverstripe-canonical": "Adds a simple rel=canonical tag to SilverStripe 4",
     "dorsetdigital/silverstripe-http2": "Adds HTTP2 headers to SilverStripe to improve performance"
-  },
-  "autoload": {
-    "psr-4": {
-      "DorsetDigital\\Themes\\Derriford\\": "src/"
-    }
   }
 }
