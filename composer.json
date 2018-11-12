@@ -3,7 +3,12 @@
   "version": "1",
   "description": "SilverStripe Bootstrap 4 theme",
   "type": "silverstripe-theme",
-  "keywords": ["silverstripe", "theme", "bootstrap", "bootstrap 4"],
+  "keywords": [
+    "silverstripe",
+    "theme",
+    "bootstrap",
+    "bootstrap 4"
+  ],
   "license": "BSD-3-Clause",
   "authors": [
     {
@@ -21,5 +26,10 @@
   "suggest": {
     "dorsetdigital/silverstripe-canonical": "Adds a simple rel=canonical tag to SilverStripe 4",
     "dorsetdigital/silverstripe-http2": "Adds HTTP2 headers to SilverStripe to improve performance"
+  },
+  "extra": {
+    "expose": [
+      "client/dist"
+    ]
   }
 }
