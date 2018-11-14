@@ -25,7 +25,8 @@
   "minimum-stability": "dev",
   "suggest": {
     "dorsetdigital/silverstripe-canonical": "Adds a simple rel=canonical tag to SilverStripe 4",
-    "dorsetdigital/silverstripe-http2": "Adds HTTP2 headers to SilverStripe to improve performance"
+    "dorsetdigital/silverstripe-http2": "Adds HTTP2 headers to SilverStripe to improve performance",
+    "dorsetdigital/silverstripe-simplegtag": "Add Google Tag Manager to your site"
   },
   "extra": {
     "expose": [
