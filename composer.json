@@ -25,7 +25,8 @@
     "silverstripe/elemental-bannerblock": "^1.0",
     "dorsetdigital/silverstripe-photoswipe-elemental": "^1.0",
     "dorsetdigital/silverstripe-element-imagetext": "^1",
-    "dorsetdigital/silverstripe-element-iframe": "^2"    
+    "dorsetdigital/silverstripe-element-iframe": "^2",
+    "dorsetdigital/silverstripe-element-slider": "*"
   },
   "minimum-stability": "dev",
   "suggest": {
