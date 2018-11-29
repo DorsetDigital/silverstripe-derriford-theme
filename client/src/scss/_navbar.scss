@@ -1,0 +1,36 @@
+div#navbarNav {
+  position: absolute;
+  right: 5px;
+  padding: 10px;
+  background: $white;
+  min-width: 250px;
+  top: -500px;
+  transition-duration: 0.5s;
+
+  &.visible {
+    top: 70px;
+  }
+
+  ul.navbar-nav {
+    list-style: none;
+    padding: 0;
+
+    li.nav-item {
+      font-size: 1.05em;
+      padding: 0.5em 1em;
+      border-bottom: solid 1px $highlightGrey;
+
+      a {
+        color: inherit;
+      }
+
+      &.active {
+        background: $highlightGrey;
+      }
+    }
+  }
+
+}
+
+
+

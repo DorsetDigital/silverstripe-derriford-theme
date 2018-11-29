@@ -1,0 +1,16 @@
+.silverstripe__elementalbannerblock__block__bannerblock {
+  margin-bottom: 1em;
+  position: relative;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .banner-element__content {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

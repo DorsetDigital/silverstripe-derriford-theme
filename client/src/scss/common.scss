@@ -2,15 +2,17 @@
 Common styles for the site
  */
 
+@import "variables";
+@import "../bootstrap-4.1.3/scss/bootstrap-reboot";
 @import "../bootstrap-4.1.3/scss/functions";
 @import "../bootstrap-4.1.3/scss/variables";
 @import "../bootstrap-4.1.3/scss/mixins";
 @import "../bootstrap-4.1.3/scss/reboot";
 @import "../bootstrap-4.1.3/scss/type";
-@import "../bootstrap-4.1.3/scss/bootstrap-grid";
 @import "../bootstrap-4.1.3/scss/list-group";
-@import "../bootstrap-4.1.3/scss/nav";
-@import "../bootstrap-4.1.3/scss/navbar";
 @import "../bootstrap-4.1.3/scss/utilities";
 @import "hamburgers";
+@import "elements";
 @import "../bootstrap-4.1.3/scss/images";
+@import "navbar";
+@import "footer";
