@@ -26,7 +26,8 @@
     "dorsetdigital/silverstripe-photoswipe-elemental": "^1.0",
     "dorsetdigital/silverstripe-element-imagetext": "^1",
     "dorsetdigital/silverstripe-element-iframe": "^2",
-    "dorsetdigital/silverstripe-element-slider": "*"
+    "dorsetdigital/silverstripe-element-slider": "*",
+    "dnadesign/silverstripe-elemental-userforms": "^1"
   },
   "minimum-stability": "dev",
   "suggest": {
