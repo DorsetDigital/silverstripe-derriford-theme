@@ -30,3 +30,37 @@
     @extend .form-control;
   }
 }
+
+.element.dorsetdigital__elements__imagetextelement {
+  .content-element__row {
+    @extend .row;
+
+    .content-element__column {
+      @extend .col;
+
+      &.half {
+        @extend .col-12;
+        @extend .col-md-6;
+      }
+
+      &.third {
+        @extend .col-12;
+        @extend .col-md-4;
+      }
+
+      &.quarter {
+        @extend .col-12;
+        @extend .col-md-3;
+      }
+
+      &.sixth {
+        @extend .col-12;
+        @extend .col-md-2;
+      }
+    }
+
+    .content-image {
+      @extend .img-fluid;
+    }
+  }
+}
