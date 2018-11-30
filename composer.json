@@ -27,7 +27,8 @@
     "dorsetdigital/silverstripe-element-imagetext": "^1",
     "dorsetdigital/silverstripe-element-iframe": "^2",
     "dorsetdigital/silverstripe-element-slider": "*",
-    "dnadesign/silverstripe-elemental-userforms": "^1"
+    "dnadesign/silverstripe-elemental-userforms": "^1",
+    "dorsetdigital/silverstripe-element-cta": "dev-master"
   },
   "minimum-stability": "dev",
   "suggest": {
