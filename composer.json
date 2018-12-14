@@ -20,7 +20,7 @@
   "require": {
     "composer/installers": "*",
     "silverstripe/framework": "^4.0",
-    "dorsetdigital/silverstripe-derriford-theme-functions": "*",
+    "dorsetdigital/silverstripe-core-theme-functions": "*",
     "dnadesign/silverstripe-elemental": "^3.0",
     "silverstripe/elemental-bannerblock": "^1.0",
     "dorsetdigital/silverstripe-photoswipe-elemental": "^1.0",
