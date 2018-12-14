@@ -30,3 +30,40 @@
     @extend .form-control;
   }
 }
+
+.content-element__row {
+  @extend .row;
+}
+
+.content-element__column {
+  @extend .col;
+
+  &.half {
+    @extend .col-12;
+    @extend .col-md-6;
+    @extend .py-4;
+    @extend .py-md-0;
+  }
+  &.third {
+    @extend .col-12;
+    @extend .col-md-4;
+    @extend .py-4;
+    @extend .py-md-0;
+  }
+  &.quarter {
+    @extend .col-12;
+    @extend .col-md-3;
+    @extend .py-4;
+    @extend .py-md-0;
+  }
+  &.sixth {
+    @extend .col-12;
+    @extend .col-md-2;
+    @extend .py-4;
+    @extend .py-md-0;
+  }
+}
+
+.content-image {
+  @extend .img-fluid;
+}
