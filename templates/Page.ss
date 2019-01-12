@@ -14,12 +14,16 @@
         <div class="row">
             <div class="col-8 col-md-10 header__logo-holder text-center text-md-left">
                 <% if $SiteConfig.MainLogo %>
+                    <a href="$Page('home').Link" title="Link to the home page">
                     <img class="img-fluid header__logo-main d-none d-md-inline" src="$SiteConfig.MainLogo.First.URL"
                          alt="$SiteConfig.Title <%t PageText.logo 'logo' %>"/>
+                    </a>
                 <% end_if %>
                 <% if $SiteConfig.MobileLogo %>
+                <a href="$Page('home').Link" title="Link to the home page">
                     <img class="img-fluid header__logo-mobile d-inline d-md-none" src="$SiteConfig.MobileLogo.First.URL"
                          alt="$SiteConfig.Title <%t PageText.logo 'logo' %>"/>
+                </a>
                 <% end_if %>
             </div>
             <div class="col-4 col-md-2 header__navigation-holder">
@@ -91,10 +95,10 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row footer__copyright-holder text-center">
+        <div class="row footer__copyright-holder">
             <div class="col-12">
                 &copy; $Now.Year $SiteConfig.CopyrightText
-                <br/>$SiteConfig.Address
+                <br/>$SiteConfig.Address.RAW
             </div>
         </div>
     </div>

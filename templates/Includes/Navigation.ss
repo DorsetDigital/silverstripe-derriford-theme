@@ -1,5 +1,5 @@
-<nav class="justify-content-center" id="main-nav">
-    <button id="mobiletoggler" class="hamburger hamburger--vortex navbar-toggler mb-3" type="button"
+<nav class="text-right" id="main-nav">
+    <button id="mobiletoggler" class="hamburger hamburger--spin navbar-toggler mb-3" type="button"
             data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
 <span class="hamburger-box">
