@@ -1,0 +1,68 @@
+.blockquote {
+  font-family: $quotation-font;
+  font-size: $blockquote-font-size;
+  margin: 0;
+  padding-right: 10px;
+  color: $blockquote-color;
+
+  p.quote {
+    text-indent: $blockquote-indent * -1;
+    padding-left: $blockquote-indent;
+    margin: 0;
+  }
+}
+
+
+ul.footer__social-links {
+  margin: 0;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  border-bottom: solid 1px $h1-border-color;
+  padding-bottom: 0.2em;
+  color: $h1-color;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+@include media-breakpoint-up('sm') {
+  h1 {
+    font-size: $h1-font-size-large;
+  }
+  h2 {
+    font-size: $h2-font-size-large;
+  }
+  h3 {
+    font-size: $h3-font-size-large;
+  }
+  .blockquote {
+    font-size: $blockquote-font-size-large;
+  }
+}
+
+
+.breadcrumb__container {
+  font-size: 0.85rem;
+  padding-top: 5px;
+}
+
+.breadcrumb__container a {
+  color: $h1-color;
+}
+
+.cta-image__holder {
+  overflow: hidden;
+  max-height: 350px;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}

@@ -10,20 +10,21 @@
 </head>
 <body class="$ClassName.ShortName">
 <header>
-    <div class="$ContainerClass header__container py-4">
+    <div class="$ContainerClass header__container py-2 py-md-4">
         <div class="row">
             <div class="col-8 col-md-10 header__logo-holder text-center text-md-left">
                 <% if $SiteConfig.MainLogo %>
                     <a href="$Page('home').Link" title="Link to the home page">
-                    <img class="img-fluid header__logo-main d-none d-md-inline" src="$SiteConfig.MainLogo.First.URL"
-                         alt="$SiteConfig.Title <%t PageText.logo 'logo' %>"/>
+                        <img class="img-fluid header__logo-main <% if $SiteConfig.MobileLogo %>d-none d-md-inline<% else %>d-inline<% end_if %>" src="$SiteConfig.MainLogo.First.URL"
+                             alt="$SiteConfig.Title <%t PageText.logo 'logo' %>"/>
                     </a>
                 <% end_if %>
                 <% if $SiteConfig.MobileLogo %>
-                <a href="$Page('home').Link" title="Link to the home page">
-                    <img class="img-fluid header__logo-mobile d-inline d-md-none" src="$SiteConfig.MobileLogo.First.URL"
-                         alt="$SiteConfig.Title <%t PageText.logo 'logo' %>"/>
-                </a>
+                    <a href="$Page('home').Link" title="Link to the home page">
+                        <img class="img-fluid header__logo-mobile d-inline d-md-none"
+                             src="$SiteConfig.MobileLogo.First.URL"
+                             alt="$SiteConfig.Title <%t PageText.logo 'logo' %>"/>
+                    </a>
                 <% end_if %>
             </div>
             <div class="col-4 col-md-2 header__navigation-holder">
@@ -50,7 +51,7 @@
 
 <footer>
     <div class="footer__holder" style="background-color: #$SiteConfig.FooterBGColour">
-        <div class="$ContainerClass py-4">
+        <div class="$ContainerClass pt-4">
             <div class="row footer__content-holder">
                 <% if $SiteConfig.FooterLogo %>
                     <div class="col-md-3 d-none d-md-block footer__logo-holder">
@@ -61,7 +62,7 @@
                 <div class="col">
                     <% if $FooterMenu %>
                         <div class="row">
-                            <div class="footer__navigation-holder col-12">
+                            <div class="footer__navigation-holder col-12 justify-content-end d-flex">
                                 <ul class="footer__navigation">
                                     <% loop $FooterMenu %>
                                         <li class="footer__navigation-item <% if $isCurrent %>active<% end_if %>">
@@ -78,27 +79,36 @@
                                 $SiteConfig.FooterText
                             </div>
                         <% end_if %>
-                        <% if $SocialLinks %>
-                            <div class="col footer__social-holder">
-                                <ul class="footer__social-links">
-                                    <% loop $SocialLinks %>
-                                        <li class="footer__social-item">
-                                            <a href="$Link" target="_blank"><i class="$Class"></i></a>
-                                        </li>
-                                    <% end_loop %>
-                                </ul>
-                            </div>
-                        <% end_if %>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row footer__copyright-holder">
-            <div class="col-12">
-                &copy; $Now.Year $SiteConfig.CopyrightText
-                <br/>$SiteConfig.Address.RAW
+    <div class="footer__copyright-holder" style="background-color: #$SiteConfig.CopyrightBGColour">
+        <div class="$ContainerClass">
+            <div class="row footer__copyright-holder">
+                <div class="col-12 col-sm-6">
+                    &copy; $Now.Year $SiteConfig.CopyrightText
+                    <br/>$SiteConfig.Address.RAW
+                </div>
+                <div class="col-12 col-sm-6 pt-3 pt-md-0">
+                    <% if $SocialLinks %>
+                        <div class="col footer__social-holder">
+                            <ul class="footer__social-links">
+                                <% loop $SocialLinks %>
+                                    <li class="footer__social-item">
+                                        <a href="$Link" target="_blank">
+                                            <span class="fa-stack fa-2x">
+  <i class="fas fa-circle fa-stack-2x"></i>
+  <i class="$Class fa-stack-1x fa-inverse"></i>
+</span>
+                                        </a>
+                                    </li>
+                                <% end_loop %>
+                            </ul>
+                        </div>
+                    <% end_if %>
+                </div>
             </div>
         </div>
     </div>

@@ -67,3 +67,22 @@
 .content-image {
   @extend .img-fluid;
 }
+
+
+
+.dorsetdigital__elements__faqelement {
+  .card {
+    .card-header {
+      button {
+        border: none;
+        background: transparent;
+      }
+    }
+  }
+}
+
+.element-padded {
+  .dorsetdigital__elements__quotation {
+    margin-top: -1rem;
+  }
+}

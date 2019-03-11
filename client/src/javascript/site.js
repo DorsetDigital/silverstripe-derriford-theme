@@ -6,8 +6,8 @@ jQuery(document).ready(function($) {
        $(this).toggleClass('is-active');
        $('#navbarNav').toggleClass('visible');
     });
-
-    $('main').css('padding-top', $('header').height());
-
 });
 
+window.onload = function() {
+    $('main').css('padding-top', $('header').height());
+};
