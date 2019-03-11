@@ -24,7 +24,7 @@
     "dnadesign/silverstripe-elemental": "^4.0",
     "silverstripe/elemental-bannerblock": "^1.0",
     "dorsetdigital/silverstripe-photoswipe-elemental": "^1.0",
-    "dorsetdigital/silverstripe-element-imagetext": "^1",
+    "dorsetdigital/silverstripe-element-imagetext": "dev-master",
     "dorsetdigital/silverstripe-element-iframe": "^2",
     "dorsetdigital/silverstripe-element-slider": "*",
     "dnadesign/silverstripe-elemental-userforms": "^1",
