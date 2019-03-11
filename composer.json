@@ -21,7 +21,7 @@
     "composer/installers": "*",
     "silverstripe/framework": "^4.0",
     "dorsetdigital/silverstripe-core-theme-functions": "*",
-    "dnadesign/silverstripe-elemental": "^3.0",
+    "dnadesign/silverstripe-elemental": "^4.0",
     "silverstripe/elemental-bannerblock": "^1.0",
     "dorsetdigital/silverstripe-photoswipe-elemental": "^1.0",
     "dorsetdigital/silverstripe-element-imagetext": "^1",
