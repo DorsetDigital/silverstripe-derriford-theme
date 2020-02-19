@@ -1,1 +1,0 @@
-<%t DorsetDigital\Elements\PhotosSwipe\Models\Gallery.SUMMARY 'One image|{count} images' count=$GalleryImages.Count %>
